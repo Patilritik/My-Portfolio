@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/33ba66ccff.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- <h1>Building Portfolio </h1>     -->
+
+    <!-- navbar section -->
+    <nav>
+        <ul class="navbar" id="navbar">
+            <a href="#Home" class="resize">
+                <li><img src="./Images/Icon.svg"></li>
+            </a>
+            <a href="#home">
+                <li>Home</li>
+            </a>
+            <a href="#Edu">
+                <li>Education</li>
+            </a>
+            <a href="#myskill">
+                <li>Skills</li>
+            </a>
+            <a href="#Projects">
+                <li>Projects</li>
+            </a>
+            <a href="./Contact_us_page/contact.html"  class="msg-btn" >
+                <li><i class="fa-regular fa-envelope "></i></li>
+            </a>
+
+        </ul>
+    </nav>
+    
+
+    <!-- Home section  -->
+    <section class="Home" id="home">
+        <div class="left-container">
+            <h1 class="big-font">
+                I'm <span class="red">Ritik Patil</span>,
+                <br>a Web Developer <br>from <span class="blue">Delhi(India)</span>
+            </h1>
+            <p class="small-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia unde<br> tenetur
+                adipisci voluptate
+                perspiciatis amet. Ut dolores ad beatae quia.</p>
+
+            <a href="./Contact_us_page/contact.html">
+                <button class="btn">Get in Touch <i class="fa-regular fa-envelope "></i></button>
+            </a>
+        </div>
+
+        <div class="right-container">
+            <img class="profile-img" src="./Images/profile.svg" alt="profile" srcset="">
+        </div>
+    </section>
+
+    <!-- Education section -->
+    <section class="common-section" id="Edu">
+        <h1 class="title">Education</h1>
+        <div class="undergraduate box">
+            <!-- UG -->
+            <div class="duration">
+                <h1>2021-Present</h1>
+            </div>
+
+            <h2 class="vertical-line"></h2>
+            <div class="Course">
+                <h1>Bachelors of Technology in Computer Science from ADGITM</h1>
+                <p>Percentage till 5th Semester : 88.52%</p>
+            </div>
+        </div>
+
+        <!-- Diploma -->
+
+        <div class="Diploma box">
+            <div class="duration">
+                <h1>2018 - 2021</h1>
+            </div>
+
+            <h2 class="vertical-line"></h2>
+            <div class="Course">
+                <h1>Diploma from G. B. Pant Institute of Technology</h1>
+                <p>Percentage : 80.50%</p>
+            </div>
+        </div>
+
+        <!-- 12th -->
+
+        <div class="High-School box">
+            <div class="duration">
+                <h1>2017 - 2018</h1>
+            </div>
+
+            <h2 class="vertical-line"></h2>
+            <div class="Course">
+                <h1>Senior Secondary from G.B.S.S. School (CBSE)</h1>
+                <p>Percentage : 79.6%</p>
+            </div>
+        </div>
+
+        <!-- 10th -->
+
+        <div class="Metric box">
+            <div class="duration">
+                <h1>2015 - 2016</h1>
+            </div>
+
+            <h2 class="vertical-line"></h2>
+            <div class="Course">
+                <h1>Metriculation from G.B.S. School (CBSE)</h1>
+                <p>Percentage : 79.8%</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Skills -->
+
+    <img src="./Images/skill-pen.png" id="skill-pen-img">
+    <section class="common-section" id="myskill">
+        <h1 class="title">Skills</h1>
+        <div class="skill-box">
+            <h1 class="red">HTML</h1>
+            <div class="outer-container ">
+                <div class="inner-container html">90%</div>
+            </div>
+        </div>
+
+        <!-- css -->
+        <div class="skill-box ">
+            <h1 class="blue">CSS</h1>
+            <div class="outer-container">
+                <div class="inner-container css">85%</div>
+            </div>
+        </div>
+
+        <!-- Js -->
+        <div class="skill-box ">
+            <h1 class="yellow">JavaScript</h1>
+            <div class="outer-container">
+                <div class="inner-container javascript">75%</div>
+            </div>
+        </div>
+
+        <!-- NodeJs -->
+        <div class="skill-box ">
+            <h1 class="green">NodeJS</h1>
+            <div class="outer-container">
+                <div class="inner-container NodeJs">60%</div>
+            </div>
+        </div>
+
+
+        <!-- ReactJs -->
+        <div class="skill-box ">
+            <h1 class="blue">ReactJS</h1>
+            <div class="outer-container">
+                <div class="inner-container ReactJs">60%</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="common-section" id="Projects">
+        <h1 class="title">Projects</h1>
+
+        <!-- Chat App -->
+
+        <div class="projects-container">
+
+            <div class="project Chat-app">
+                <img src="./Images/chat app image.png" class="projects-img chat-app-img" alt="" srcset="">
+
+                <h1 class="project-name">Chat App</h1>
+                <hr style="width: 80%; margin-left: 10%; border: 1px solid black; margin-top: 1.2vh;">
+
+                <p class="project-discript">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
+                    possimus.
+
+                </p>
+                <a href="https://github.com/Patilritik/Chatting-app"><button class="btn Source-code-btn">Source
+                        Code</button></a>
+            </div>
+
+            <!-- Tic tac toe -->
+            <div class="project Chat-app">
+                <a href="https://patilritik.github.io/Tic-tac-toe-game-/">
+                    <img src="./Images/tic tac toe.png" class="projects-img tic-tac-img" alt="" srcset="">
+                </a>
+
+                <h1 class="project-name">Tic-Tac-Toe Game</h1>
+                <hr style="width: 80%; margin-left: 10%; border: 1px solid black; margin-top: 1.2vh;">
+
+                <p class="project-discript">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
+                    possimus.
+
+                </p>
+                <a href="https://github.com/Patilritik/Tic-tac-toe-game-"><button class="btn Source-code-btn">Source
+                        Code</button></a>
+            </div>
+
+            <!-- Todo -->
+            <div class="project Chat-app">
+                <a href="https://patilritik.github.io/To-Do-List/">
+                    <img src="./Images/To do image.png" class="projects-img to-do-img" alt="">
+                </a>
+
+                <h1 class="project-name">To-Do List App</h1>
+
+                <hr style="width: 80%; margin-left: 10%; border: 1px solid black; margin-top: 1.2vh;">
+
+                <p class="project-discript">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta,
+                    possimus.
+                </p>
+                <a href="https://github.com/Patilritik/To-Do-List"><button class="btn Source-code-btn">Source
+                        Code</button></a>
+            </div>
+
+        </div>
+
+        <a href="./Contact_us_page/contact.html">
+            <button class="btn project-center-btn">Get in Touch <i class="fa-regular fa-envelope "></i></button>
+        </a>
+
+
+
+    </section>
+
+    <!-- Footer -->
+    <section>
+
+        <section class="common-section" id="footer-section">
+
+            <div class="social-media">
+                <img src="./Images/Icon.svg" style="filter :invert(100%)">
+
+                <div class="links-section">
+
+                    <a href="" class="social-media-icon git"><i class="fa-brands fa-github"></i></a>
+                    <a href="" class="social-media-icon linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="social-media-icon fb"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="social-media-icon insta"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="pages-section">
+                <h2 class="page-title">Pages</h2>
+                <a href="#home">
+                    <h3 class="pages-info">Home</h3>
+                </a>
+                <a href="#Edu">
+                    <h3 class="pages-info">Education</h3>
+                </a>
+                <a href="#Projects">
+                    <h3 class="pages-info">Projects</h3>
+                </a>
+                <a href="#myskill">
+                    <h3 class="pages-info">Skills</h3>
+                </a>
+
+            </div>
+
+            <div class="contact-info">
+                <h2>Contact us</h2>
+
+                <h3 class="contact "><a href="patilritik675@gmail.com"> <i class="fa-regular fa-envelope-open"></i>
+                        patilritik675@gmail.com</a></h3>
+                <h3 class="contact "><a href="+91-7827547525"> <i class="fa-solid fa-phone"></i> +91-7827547525</a></h3>
+            </div>
+
+
+        </section>
+
+        <hr style="border: 1px solid white;">
+        <div class="copyright">
+            <p>Copyright : Portfolio Designed by Ritik Patil 😎</p>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
