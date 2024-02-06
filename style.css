@@ -42,10 +42,10 @@ nav{
     font-weight: var(--font-weight-medium);
 }
 
-nav ul a{
+.hover{
     color: black;
 }
-nav ul a :hover{
+.hover:hover{
     color: var(--blue-color);
     transition: 0.2s ease-in-out;
 }
@@ -99,7 +99,7 @@ nav ul a :hover{
     box-shadow: var(--box-shadow);
 }
 
-.msg-btn {
+.msg-btn{
     color: white;
     background: #000;
     border: none;
