@@ -320,7 +320,7 @@ nav{
 }
 .social-media-icon {
     height: 6vh;
-    width: 3vw;
+    width: 3vw; 
     display: flex;
     border-radius: 50%;
     align-items: center;
@@ -379,7 +379,7 @@ nav{
 }
 .copyright{
     height: 15vh;
-    background: #000;
+        background: #000;
     color: white ;
     display: flex;
     justify-content: center;
